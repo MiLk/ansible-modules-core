@@ -151,7 +151,7 @@ except ImportError:
 else:
     mysqldb_found = True
 
-VALID_PRIVS = frozenset(('CREATE', 'DROP', 'GRANT OPTION', 'LOCK TABLES',
+VALID_PRIVS = frozenset(('CREATE', 'DROP', 'GRANT', 'LOCK TABLES',
                          'REFERENCES', 'EVENT', 'ALTER', 'DELETE', 'INDEX',
                          'INSERT', 'SELECT', 'UPDATE',
                          'CREATE TEMPORARY TABLES', 'TRIGGER', 'CREATE VIEW',
